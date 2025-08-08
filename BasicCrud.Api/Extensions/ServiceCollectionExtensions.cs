@@ -13,9 +13,11 @@ namespace BasicCrud.Api.Extensions
         {
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IOrderRepository, OrderRepository>();
+            services.AddScoped<IAddressRepository, AddressRepository>();
 
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IOrderService, OrderService>();
+            services.AddScoped<IAddressService, AddressService>();
 
             return services;
         }
