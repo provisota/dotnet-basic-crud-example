@@ -12,6 +12,7 @@ namespace BasicCrud.Api.Data
 
         public DbSet<User> Users => Set<User>();
         public DbSet<Order> Orders => Set<Order>();
+        public DbSet<Address> Addresses => Set<Address>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
