@@ -1,0 +1,13 @@
+bin/
+obj/
+*.user
+*.suo
+*.cache
+.vscode/
+.vs/
+.env
+*.sqlite
+*.db
+/BasicCrud.Api/bin/
+/BasicCrud.Api/obj/
+/.idea/
